@@ -37,4 +37,3 @@ if uploaded_file:
 
     st.image(image, caption=f"Prediction: {label} ({confidence*100:.2f}%)", channels="BGR")
 
-https://drive.google.com/drive/folders/13kIEx2cbjNaoHEUeH6eWHOginvvT8Of5?usp=drive_link
