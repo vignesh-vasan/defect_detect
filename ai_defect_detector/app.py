@@ -15,7 +15,8 @@ MODEL_PATH = "models/final_defect_model.h5"
 
 # 🔽 Download model from Google Drive if not present
 if not os.path.exists(MODEL_PATH):
-    gdown.download(f"https://drive.google.com/uc?id={13kIEx2cbjNaoHEUeH6eWHOginvvT8Of5}", MODEL_PATH, quiet=False)
+    gdown.download(f"https://drive.google.com/uc?id={FILE_ID}", MODEL_PATH, quiet=False)
+
 
 # ✅ Load model
 model = load_model(MODEL_PATH)
